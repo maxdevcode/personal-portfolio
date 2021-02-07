@@ -36,16 +36,18 @@
       font-size: 14px;
       font-weight: 600;
     }
-
-    header a{
+    
+    /*Styling the navigation buttons*/
+    nav a{
       border: 1px solid #03045e;
       background-color: #48cae4;
       color: #03045e;
       padding: 8px;
       border-radius: 5px;
     }
-
-    header a:hover{
+    
+    /*navigation button pseudo class :hover styling*/
+    nav a:hover{
       border: 1px solid #48cae4;
       background-color: #03045e;
       color: #48cae4;
@@ -74,11 +76,13 @@
       color: #03045e;
       padding-bottom: 3px;
     }
-
+    
+    /*Align H2 Headers to the center*/
     h2{
       text-align: center;
     }
-
+    
+    /*Justified main paragraphs and main list items*/
     main p, main li{
       text-align: justify;
       font-size: 16px;
@@ -110,4 +114,9 @@
       padding-top: 50px;
       padding-bottom: 50px;
       font-size: 12px;
+    }
+    
+    /*Increased line height for list elements*/
+    li{
+      line-height: 35px;
     }
