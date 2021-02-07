@@ -121,3 +121,8 @@
       line-height: 35px;
       font-size: 26px;
     }
+
+    /*Remove bullet points*/
+    ul{
+      list-style: none;
+    }
