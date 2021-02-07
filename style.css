@@ -31,7 +31,7 @@
     }
      
     /*Header Links*/
-    header a, header a:hover{
+    header a, header a:hover, .styled-contact-links{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
       font-weight: 600;
