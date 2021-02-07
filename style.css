@@ -70,15 +70,15 @@
       padding-bottom: 50px;
     }
 
-    /*H2 Subheading and main paragraph and list items font, color*/
-    h2, main p, main li{
+    /*h2 & h3 Subheading and main paragraph and list items font, color*/
+    h2, h3, main p, main li{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: #03045e;
       padding-bottom: 3px;
     }
     
-    /*Align H2 Headers to the center*/
-    h2{
+    /*Align h2 & h3 Headers to the center*/
+    h2, h3{
       text-align: center;
     }
     
