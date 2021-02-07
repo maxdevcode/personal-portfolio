@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Here are the meta tags and css stylesheet links!-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>My Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
+  <!--Here starts the Body of the webpage!-->
   <body>
+    <!--This is the header of the site!-->
+    <header>
+      <h1>Max De La Rosa Toro</h1>
+      <p><strong>Software Developer</strong><p>
+        <!--Site navigation!-->
+      <nav>
+        <a href="#intro-section">Intro</a>
+        <a href="#aboutme-section">About Me</a>
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <!--Intro section!-->
+        <section id="intro-section">
+          <div class="centered">
+          <img class="profile-image" src="/images/profile-picture.png" alt="A picture of myself." width=300px>
+          </div>
+          <h2>Introduction</h2>
+          <p>My name is <em>Max De La Rosa Toro</em> and I'm a software developer. I'm 25 years old and I currently live in Lima, Peru.</p>
+        </section>
+        <hr>
+        <!--About Me section!-->
+        <section id="aboutme-section">
+          <h2>About Me</h2>
+          <p>I'm a recently graduated industrial engineer that has always had an affinity towards coding and computer programming.</p>
+          <p>I've recently started out on my coding journey! I'm looking forward to partner up with other software developers and work in awesome projects!</p>
+          <p>In addition to web development, I love the following 3 things:</p>
+          <ol>
+            <li>Surfing</li>
+            <li>Playing Guitar</li>
+            <li>Calisthenics</li>
+          </ol>
+        </section>
+        <hr>
+        <!--Contact section!-->
+        <section id="contact-section">
+          <h2>Contact Info</h2>
+          <p>Please contact me through the following channels! I'm looking forward to hearing about you and your projects!</p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/max-de-la-rosa-toro-97224b171/">Linkedin</a></li>
+            <li><a href="https://github.com/maxdevcode/">GitHub</a></li>
+            <li><a href="mailto:mdelarosatoroag@gmail.com">Email</a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>© Copyright: Max De La Rosa Toro</p>
+    </footer>
+
+
     <script src="script.js"></script>
   </body>
 </html>

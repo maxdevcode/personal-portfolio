@@ -1,0 +1,113 @@
+/*Transforms the box sizing method to border-box*/
+*{
+    box-sizing: border-box;
+    }
+    
+    /*-----------------------------------*/
+    /*Header elements*/
+    /*Align center, header background and border*/
+    header {
+      text-align: center;
+      border: solid 2px #03045e;
+      background-color: #023e8a;
+      padding-bottom: 30px;
+    }
+    
+    /*Header 1*/
+    h1{
+      font-size: 40px;
+      padding-top: 3px;
+    }
+    /*Header subheading*/
+    header p{
+      font-size: 20px;
+      padding-bottom: 3px;
+    }
+    
+    /*Font Color and font for header and footer*/
+    header p, h1, footer{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #48cae4;
+    }
+     
+    /*Header Links*/
+    header a, header a:hover{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    header a{
+      border: 1px solid #03045e;
+      background-color: #48cae4;
+      color: #03045e;
+      padding: 8px;
+      border-radius: 5px;
+    }
+
+    header a:hover{
+      border: 1px solid #48cae4;
+      background-color: #03045e;
+      color: #48cae4;
+      padding: 8px;
+      border-radius: 5px;
+    }
+
+
+    /*-----------------------------------*/
+    /*Main Elements*/
+    /*Main color + center align*/
+    main{
+      background-color: #caf0f8;
+      padding: 10px 80px;
+    }
+    
+    /*Section Padding*/
+    section{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    /*H2 Subheading and main paragraph and list items font, color*/
+    h2, main p, main li{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #03045e;
+      padding-bottom: 3px;
+    }
+
+    h2{
+      text-align: center;
+    }
+
+    main p, main li{
+      text-align: justify;
+      font-size: 16px;
+    }
+
+    /*Profile Image Styling*/
+    .profile-image{
+      margin: 10px 10px 10px 10px;
+      border-radius: 100px;
+      border: 2px solid #023e8a;
+    }
+
+    .centered{
+      text-align: center;
+    }
+
+    /*Horizontal Rule Styling*/
+    hr{
+      border-color: #023e8a;
+      height: 1px;
+      background-color: #023e8a;
+    }
+    
+    /*Footer background color and text size*/
+    footer{
+      text-align: center;
+      border: solid 2px #03045e;
+      background-color: #023e8a;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size: 12px;
+    }
